@@ -45,19 +45,19 @@ public class Refresh_device_info
 
 	private static String RefreshDeviceInfo(String deviceID) throws Exception
 	{
-		/* Api to apply dynamic jobs
-		Endpoint: /dynamicjob
-		  Method: POST
-		  Request Body:
-		     {
-		         "JobType":string,
-		         "DeviceID":string
-		     }
-		  Authentication:
-		      Basic authentication
-		  Headers:
-		      ApiKey: �Your Api-Key�
-		*/
+		// /* Api to apply dynamic jobs
+		// Endpoint: /dynamicjob
+		//   Method: POST
+		//   Request Body:
+		//      {
+		//          "JobType":string,
+		//          "DeviceID":string
+		//      }
+		//   Authentication:
+		//       Basic authentication
+		//   Headers:
+		//       ApiKey: �Your Api-Key�
+		// */
 
 		// ... API URL
 		String URL = baseurl + "/dynamicjob";
@@ -155,7 +155,5 @@ public static native int device_type(long j);
 public int device_type;
 protected List getFieldOrder() { return Arrays.asList(new String[]
       { "device_type", "device_id" }); }
-  }
-
-}
+ 
 
