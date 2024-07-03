@@ -157,6 +157,5 @@ protected List getFieldOrder() { return Arrays.asList(new String[]
       { "device_type", "device_id" }); }
   }
 
-}
-}
+
 
