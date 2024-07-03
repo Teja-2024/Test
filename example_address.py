@@ -33,6 +33,3 @@ billingAddress1 = models.CharField(max_length=250, blank=True)
 billingCity = models.CharField(max_length=250, blank=True)
 billingPostcode = models.CharField(max_length=10, blank=True)
 billingCountry = models.CharField(max_length=200, blank=True)
-
-
-
