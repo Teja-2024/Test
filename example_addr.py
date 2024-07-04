@@ -6,3 +6,4 @@ address.setCity(city);
 address.setHouseNumberOrName(number);
 address.setPostalCode(postalCode);
 address.setPostalCode(postalCode);
+address.setPostalCode(postalCode);
