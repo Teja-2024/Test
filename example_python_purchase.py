@@ -116,7 +116,6 @@ browserInfo = loads(infos[2])
 browserInfo = 'my browser information'
 swagger_types = {
         "browser_info": "BrowserInfo",
-    
         "device": "Device",
         "email": "str",
         "home_phone": "str",
