@@ -7,17 +7,17 @@ public static class Device_info {
         public String Wired_MAC = "NONE";
         public String Wired_loc = "NONE";
 
-        public String Wifi_IP = "NONE";
-        public String Wifi_ID = "NONE";
-        public char Wifi_conn;
-        public String Wifi_loc = "NONE";
-        public String Wifi_MAC = "NONE";
+        // public String Wifi_IP = "NONE";
+        // public String Wifi_ID = "NONE";
+        // public char Wifi_conn;
+        // public String Wifi_loc = "NONE";
+        // public String Wifi_MAC = "NONE";
 
-        public String LTE_IP = "NONE";
-        public String LTE_ID = "NONE";
-        public char LTE_conn;
-        public String LTE_loc = "NONE";
-        public String LTE_MAC = "NONE";
+        // public String LTE_IP = "NONE";
+        // public String LTE_ID = "NONE";
+        // public char LTE_conn;
+        // public String LTE_loc = "NONE";
+        // public String LTE_MAC = "NONE";
     }
 
 public class Refresh_device_info
