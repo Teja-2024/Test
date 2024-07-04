@@ -25,6 +25,11 @@ def product_cart_details(request, cart_id):
         'cart_items': cart_items,
     }
 
+
+
+
+
+
     
 
     return render(request, 'product_buy_details.html', context)
