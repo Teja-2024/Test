@@ -16,6 +16,8 @@ account["billingAddressPostcode"].replace(" ", "").upper()
 
 
 customer = models.ForeignKey('Customer', on_delete=models.SET_NULL, blank=True, null=True, related_name='billing_addresses')
+
+
 address = models.CharField(max_length=225, null=True, blank=True)
 city = models.CharField(max_length=225, null=True, blank=True)
 state = models.CharField(max_length=225, null=True, blank=True)
