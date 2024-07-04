@@ -41,3 +41,4 @@ this.customerName = customerName;
         return accountId;
     public void setAccountId (String accountId)
         this.accountId = accountId;
+this.accountId = accountId;
