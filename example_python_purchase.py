@@ -117,7 +117,7 @@ swagger_types = {
         "browser_info": "BrowserInfo",
         "device": "Device",
         "email": "str",
-        "home_phone": "str",
+
         "id": "str",
         "identity": "str",
         "ip": "str",
