@@ -26,6 +26,8 @@ public class Refresh_device_info
 
 
 	public static String baseurl = "https://suremdm.42gears.com/api";  // BaseURL of SureMDM
+
+
 	private static String Username = "Username";
 	private static String Password = "Password";
 	private static String ApiKey = "Your ApiKey";
