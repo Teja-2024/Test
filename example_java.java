@@ -1,6 +1,5 @@
 public static class Device_info {
         public String Dev_ID = "NONE";
-
         public String Wired_IP = "NONE";
         public String Wired_ID = "NONE";
         public char Wired_conn;
