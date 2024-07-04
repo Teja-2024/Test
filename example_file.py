@@ -6,7 +6,7 @@ paymentDetails = { "amount":132,
                 "billingAddress":{"country":"US",
                                     "zip":"38138",
                                     "state":"TN",
-                                    "street":"123 ABC Lane",
+                               
                                     "city":"Memphis"}
                }
 billingAddress = json2Address(json_dic["BillingAddress"])
