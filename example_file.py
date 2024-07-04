@@ -32,6 +32,8 @@ public static IAmount merchantAccount(String account) {
     IBuilder shopper(Name name, String email, String ip, String reference, ShopperInteraction interaction);
 
 public class CustomerAccount {
+
+  
 private String customerName;
 return customerName;
 public void setCustomerName(String customerName) {
