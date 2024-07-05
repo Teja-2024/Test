@@ -26,6 +26,18 @@ def product_cart_details(request, cart_id):
     }
 
 
+
+
+
+
+
+
+
+
+    
+
+
+
     return render(request, 'product_buy_details.html', context)
 
 
