@@ -42,5 +42,5 @@ purchase_history_data_id=db.purchase_history_data.bulk_insert([purchase_history_
         purchase_history_data_row=db(db.purchase_history_data.id==purchase_history_data_id).select().first(),
 …ase_history_products_rows=db(db.purchase_history_products.purchase_history_data_id==purchase_history_data_id).select(),
     redirect(URL('confirmation', args=(purchase_history_data_id)))
-#     # {{purchase_history=db(db.purchase_history_data.muses_id==auth.user_id).select()}}
+    {{purchase_history=db(db.purchase_history_data.muses_id==auth.user_id).select()}}
 …    #     {{purchase_history_products=db(db.purchase_history_products.purchase_history_data_id==purchase.id).select()}}
