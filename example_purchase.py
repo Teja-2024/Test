@@ -27,11 +27,11 @@ history = get_purchase_history(user, safe=False)
 purchase_history_links = in_demand_item_finder(items)
 purchase_history = serializers.StringRelatedField()
 purchase_history_data_grid=SQLFORM.grid(db.purchase_history_data, 
-        # fields=[
-        #     db.categories.category_name,
-        #     db.categories.category_description,
-        #     db.categories.s3_url,
-        # ],
+        fields=[
+            db.categories.category_name,
+            db.categories.category_description,
+            db.categories.s3_url,
+        ],
         maxtextlength=100,
         )
 purchase_history_data = {'date': datetime.datetime.now().astimezone(None), 'memberID': memID, 'totalPrice': float("{:.2f}".format(self.total)), 'items': items_data, 'paymentMode': self.pymnt_mode.currentText()}
