@@ -39,7 +39,7 @@ if __name__ == "__main__":
     updated_preferences = continuous_learner.update_preferences()
     optimized_queries = continuous_learner.optimize_search_queries()
     user_interface = UserInterface(recommendation_system)
-    app.run()
+    # app.run()
 
 
 from flask import Flask, request, jsonify
