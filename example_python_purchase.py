@@ -24,17 +24,9 @@ def product_cart_details(request, cart_id):
     context = {
         'cart_items': cart_items,
     }
-
-
-
-
-
-
-
-
-
-
-    
+context = {
+        'cart_items': cart_items,
+    }
 
 
 
