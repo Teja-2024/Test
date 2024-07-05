@@ -20,21 +20,6 @@ public static class Device_info {
 
 
 
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
     }
 
 public class Refresh_device_info
