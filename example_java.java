@@ -6,13 +6,11 @@ public static class Device_info {
         public char Wired_conn;
         public String Wired_MAC = "NONE";
         public String Wired_loc = "NONE";
-
         public String Wifi_IP = "NONE";
         public String Wifi_ID = "NONE";
         public char Wifi_conn;
         public String Wifi_loc = "NONE";
         public String Wifi_MAC = "NONE";
-
         public String LTE_IP = "NONE";
         public String LTE_ID = "NONE";
         public char LTE_conn;
